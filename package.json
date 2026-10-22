@@ -1,0 +1,21 @@
+{
+  "name": "lazystudy_ai",
+  "version": "1.0.0",
+  "description": "LazyStudy AI: Lightweight local AI study companion for summaries, flashcards, quizzes, and revision plans.",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "start": "node server/app.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "ollama",
+    "study-assistant",
+    "local-ai",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT"
+}
